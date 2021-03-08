@@ -1,0 +1,570 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7F2E600225EA0E4300A9A7AA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F2E600125EA0E4300A9A7AA /* AppDelegate.swift */; };
+		7F2E600425EA0E4300A9A7AA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F2E600325EA0E4300A9A7AA /* SceneDelegate.swift */; };
+		7F2E600625EA0E4300A9A7AA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F2E600525EA0E4300A9A7AA /* ViewController.swift */; };
+		7F2E600925EA0E4300A9A7AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F2E600725EA0E4300A9A7AA /* Main.storyboard */; };
+		7F2E600C25EA0E4300A9A7AA /* Lowe_s_Question.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7F2E600A25EA0E4300A9A7AA /* Lowe_s_Question.xcdatamodeld */; };
+		7F2E600E25EA0E4400A9A7AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F2E600D25EA0E4400A9A7AA /* Assets.xcassets */; };
+		7F2E601125EA0E4400A9A7AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F2E600F25EA0E4400A9A7AA /* LaunchScreen.storyboard */; };
+		7F2E601A25EA0E7D00A9A7AA /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F2E601925EA0E7D00A9A7AA /* DataModel.swift */; };
+		7F2E602325EA0FD700A9A7AA /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F2E602225EA0FD700A9A7AA /* NetworkManager.swift */; };
+		7F2E602625EA105300A9A7AA /* NetworkClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F2E602525EA105300A9A7AA /* NetworkClient.swift */; };
+		7F2E602925EA10CD00A9A7AA /* URLManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F2E602825EA10CD00A9A7AA /* URLManager.swift */; };
+		7F2E602C25EA188E00A9A7AA /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F2E602B25EA188E00A9A7AA /* ListViewController.swift */; };
+		7F2E602F25EA189D00A9A7AA /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F2E602E25EA189D00A9A7AA /* DetailViewController.swift */; };
+		7F2E603325EA19B000A9A7AA /* ListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F2E603125EA19B000A9A7AA /* ListTableViewCell.swift */; };
+		7F2E603425EA19B000A9A7AA /* ListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7F2E603225EA19B000A9A7AA /* ListTableViewCell.xib */; };
+		7F67D7B825EA7E04008776A1 /* Lowe_s_QuestionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F67D7B725EA7E04008776A1 /* Lowe_s_QuestionTests.swift */; };
+		7F67D7C225EA7E37008776A1 /* test.json in Resources */ = {isa = PBXBuildFile; fileRef = 7F67D7C125EA7E37008776A1 /* test.json */; };
+		7F67D7C625EA7EB7008776A1 /* MockNetworkClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F67D7C525EA7EB7008776A1 /* MockNetworkClient.swift */; };
+		7FBD84F625EA2B2500B808D9 /* GeneralFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FBD84F525EA2B2500B808D9 /* GeneralFunctions.swift */; };
+		7FBD84F925EA333000B808D9 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FBD84F825EA333000B808D9 /* Constants.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7F67D7BA25EA7E04008776A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7F2E5FF625EA0E4300A9A7AA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7F2E5FFD25EA0E4300A9A7AA;
+			remoteInfo = "Lowe's_Question";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7F2E5FFE25EA0E4300A9A7AA /* Lowe's_Question.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lowe's_Question.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F2E600125EA0E4300A9A7AA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7F2E600325EA0E4300A9A7AA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		7F2E600525EA0E4300A9A7AA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7F2E600825EA0E4300A9A7AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7F2E600B25EA0E4300A9A7AA /* Lowe_s_Question.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Lowe_s_Question.xcdatamodel; sourceTree = "<group>"; };
+		7F2E600D25EA0E4400A9A7AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7F2E601025EA0E4400A9A7AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7F2E601225EA0E4400A9A7AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F2E601925EA0E7D00A9A7AA /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		7F2E602225EA0FD700A9A7AA /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		7F2E602525EA105300A9A7AA /* NetworkClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkClient.swift; sourceTree = "<group>"; };
+		7F2E602825EA10CD00A9A7AA /* URLManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLManager.swift; sourceTree = "<group>"; };
+		7F2E602B25EA188E00A9A7AA /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		7F2E602E25EA189D00A9A7AA /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		7F2E603125EA19B000A9A7AA /* ListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableViewCell.swift; sourceTree = "<group>"; };
+		7F2E603225EA19B000A9A7AA /* ListTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListTableViewCell.xib; sourceTree = "<group>"; };
+		7F67D7B525EA7E03008776A1 /* Lowe's_QuestionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lowe's_QuestionTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F67D7B725EA7E04008776A1 /* Lowe_s_QuestionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lowe_s_QuestionTests.swift; sourceTree = "<group>"; };
+		7F67D7B925EA7E04008776A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F67D7C125EA7E37008776A1 /* test.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = test.json; sourceTree = "<group>"; };
+		7F67D7C525EA7EB7008776A1 /* MockNetworkClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockNetworkClient.swift; sourceTree = "<group>"; };
+		7FBD84F525EA2B2500B808D9 /* GeneralFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralFunctions.swift; sourceTree = "<group>"; };
+		7FBD84F825EA333000B808D9 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7F2E5FFB25EA0E4300A9A7AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F67D7B225EA7E03008776A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7F2E5FF525EA0E4300A9A7AA = {
+			isa = PBXGroup;
+			children = (
+				7F2E600025EA0E4300A9A7AA /* Lowe's_Question */,
+				7F67D7B625EA7E04008776A1 /* Lowe's_QuestionTests */,
+				7F2E5FFF25EA0E4300A9A7AA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7F2E5FFF25EA0E4300A9A7AA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7F2E5FFE25EA0E4300A9A7AA /* Lowe's_Question.app */,
+				7F67D7B525EA7E03008776A1 /* Lowe's_QuestionTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7F2E600025EA0E4300A9A7AA /* Lowe's_Question */ = {
+			isa = PBXGroup;
+			children = (
+				7F2E600125EA0E4300A9A7AA /* AppDelegate.swift */,
+				7F2E600325EA0E4300A9A7AA /* SceneDelegate.swift */,
+				7F2E602125EA0ED600A9A7AA /* NetworkComponent */,
+				7F2E601E25EA0EA000A9A7AA /* Model */,
+				7F2E602025EA0EAE00A9A7AA /* View */,
+				7F2E601C25EA0E9300A9A7AA /* Controller */,
+				7F2E600D25EA0E4400A9A7AA /* Assets.xcassets */,
+				7F2E600F25EA0E4400A9A7AA /* LaunchScreen.storyboard */,
+				7F2E601225EA0E4400A9A7AA /* Info.plist */,
+				7F2E600A25EA0E4300A9A7AA /* Lowe_s_Question.xcdatamodeld */,
+			);
+			path = "Lowe's_Question";
+			sourceTree = "<group>";
+		};
+		7F2E601C25EA0E9300A9A7AA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7F2E600525EA0E4300A9A7AA /* ViewController.swift */,
+				7F2E602B25EA188E00A9A7AA /* ListViewController.swift */,
+				7F2E602E25EA189D00A9A7AA /* DetailViewController.swift */,
+				7FBD84F525EA2B2500B808D9 /* GeneralFunctions.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		7F2E601E25EA0EA000A9A7AA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7FBD84F825EA333000B808D9 /* Constants.swift */,
+				7F2E601925EA0E7D00A9A7AA /* DataModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7F2E602025EA0EAE00A9A7AA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7F2E600725EA0E4300A9A7AA /* Main.storyboard */,
+				7F2E603125EA19B000A9A7AA /* ListTableViewCell.swift */,
+				7F2E603225EA19B000A9A7AA /* ListTableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7F2E602125EA0ED600A9A7AA /* NetworkComponent */ = {
+			isa = PBXGroup;
+			children = (
+				7F2E602225EA0FD700A9A7AA /* NetworkManager.swift */,
+				7F2E602525EA105300A9A7AA /* NetworkClient.swift */,
+				7F2E602825EA10CD00A9A7AA /* URLManager.swift */,
+			);
+			name = NetworkComponent;
+			sourceTree = "<group>";
+		};
+		7F67D7B625EA7E04008776A1 /* Lowe's_QuestionTests */ = {
+			isa = PBXGroup;
+			children = (
+				7F67D7B725EA7E04008776A1 /* Lowe_s_QuestionTests.swift */,
+				7F67D7B925EA7E04008776A1 /* Info.plist */,
+				7F67D7C125EA7E37008776A1 /* test.json */,
+				7F67D7C525EA7EB7008776A1 /* MockNetworkClient.swift */,
+			);
+			path = "Lowe's_QuestionTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7F2E5FFD25EA0E4300A9A7AA /* Lowe's_Question */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F2E601525EA0E4400A9A7AA /* Build configuration list for PBXNativeTarget "Lowe's_Question" */;
+			buildPhases = (
+				7F2E5FFA25EA0E4300A9A7AA /* Sources */,
+				7F2E5FFB25EA0E4300A9A7AA /* Frameworks */,
+				7F2E5FFC25EA0E4300A9A7AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Lowe's_Question";
+			productName = "Lowe's_Question";
+			productReference = 7F2E5FFE25EA0E4300A9A7AA /* Lowe's_Question.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7F67D7B425EA7E03008776A1 /* Lowe's_QuestionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F67D7BE25EA7E04008776A1 /* Build configuration list for PBXNativeTarget "Lowe's_QuestionTests" */;
+			buildPhases = (
+				7F67D7B125EA7E03008776A1 /* Sources */,
+				7F67D7B225EA7E03008776A1 /* Frameworks */,
+				7F67D7B325EA7E03008776A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7F67D7BB25EA7E04008776A1 /* PBXTargetDependency */,
+			);
+			name = "Lowe's_QuestionTests";
+			productName = "Lowe's_QuestionTests";
+			productReference = 7F67D7B525EA7E03008776A1 /* Lowe's_QuestionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7F2E5FF625EA0E4300A9A7AA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					7F2E5FFD25EA0E4300A9A7AA = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					7F67D7B425EA7E03008776A1 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 7F2E5FFD25EA0E4300A9A7AA;
+					};
+				};
+			};
+			buildConfigurationList = 7F2E5FF925EA0E4300A9A7AA /* Build configuration list for PBXProject "Lowe's_Question" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7F2E5FF525EA0E4300A9A7AA;
+			productRefGroup = 7F2E5FFF25EA0E4300A9A7AA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7F2E5FFD25EA0E4300A9A7AA /* Lowe's_Question */,
+				7F67D7B425EA7E03008776A1 /* Lowe's_QuestionTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7F2E5FFC25EA0E4300A9A7AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F2E601125EA0E4400A9A7AA /* LaunchScreen.storyboard in Resources */,
+				7F2E603425EA19B000A9A7AA /* ListTableViewCell.xib in Resources */,
+				7F2E600E25EA0E4400A9A7AA /* Assets.xcassets in Resources */,
+				7F2E600925EA0E4300A9A7AA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F67D7B325EA7E03008776A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F67D7C225EA7E37008776A1 /* test.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7F2E5FFA25EA0E4300A9A7AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F2E603325EA19B000A9A7AA /* ListTableViewCell.swift in Sources */,
+				7F2E602325EA0FD700A9A7AA /* NetworkManager.swift in Sources */,
+				7F2E602925EA10CD00A9A7AA /* URLManager.swift in Sources */,
+				7F2E601A25EA0E7D00A9A7AA /* DataModel.swift in Sources */,
+				7F2E600C25EA0E4300A9A7AA /* Lowe_s_Question.xcdatamodeld in Sources */,
+				7F2E600625EA0E4300A9A7AA /* ViewController.swift in Sources */,
+				7F2E602C25EA188E00A9A7AA /* ListViewController.swift in Sources */,
+				7FBD84F925EA333000B808D9 /* Constants.swift in Sources */,
+				7F2E602625EA105300A9A7AA /* NetworkClient.swift in Sources */,
+				7FBD84F625EA2B2500B808D9 /* GeneralFunctions.swift in Sources */,
+				7F2E602F25EA189D00A9A7AA /* DetailViewController.swift in Sources */,
+				7F2E600225EA0E4300A9A7AA /* AppDelegate.swift in Sources */,
+				7F2E600425EA0E4300A9A7AA /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F67D7B125EA7E03008776A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F67D7B825EA7E04008776A1 /* Lowe_s_QuestionTests.swift in Sources */,
+				7F67D7C625EA7EB7008776A1 /* MockNetworkClient.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7F67D7BB25EA7E04008776A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7F2E5FFD25EA0E4300A9A7AA /* Lowe's_Question */;
+			targetProxy = 7F67D7BA25EA7E04008776A1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7F2E600725EA0E4300A9A7AA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F2E600825EA0E4300A9A7AA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7F2E600F25EA0E4400A9A7AA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F2E601025EA0E4400A9A7AA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7F2E601325EA0E4400A9A7AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7F2E601425EA0E4400A9A7AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7F2E601625EA0E4400A9A7AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4QJUCZ4JW2;
+				INFOPLIST_FILE = "Lowe's_Question/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SahilMirchandani.Lowe-s-Question";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7F2E601725EA0E4400A9A7AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4QJUCZ4JW2;
+				INFOPLIST_FILE = "Lowe's_Question/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SahilMirchandani.Lowe-s-Question";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7F67D7BC25EA7E04008776A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4QJUCZ4JW2;
+				INFOPLIST_FILE = "Lowe's_QuestionTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SahilMirchandani.Lowe-s-QuestionTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lowe's_Question.app/Lowe's_Question";
+			};
+			name = Debug;
+		};
+		7F67D7BD25EA7E04008776A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4QJUCZ4JW2;
+				INFOPLIST_FILE = "Lowe's_QuestionTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SahilMirchandani.Lowe-s-QuestionTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lowe's_Question.app/Lowe's_Question";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7F2E5FF925EA0E4300A9A7AA /* Build configuration list for PBXProject "Lowe's_Question" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F2E601325EA0E4400A9A7AA /* Debug */,
+				7F2E601425EA0E4400A9A7AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F2E601525EA0E4400A9A7AA /* Build configuration list for PBXNativeTarget "Lowe's_Question" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F2E601625EA0E4400A9A7AA /* Debug */,
+				7F2E601725EA0E4400A9A7AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F67D7BE25EA7E04008776A1 /* Build configuration list for PBXNativeTarget "Lowe's_QuestionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F67D7BC25EA7E04008776A1 /* Debug */,
+				7F67D7BD25EA7E04008776A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		7F2E600A25EA0E4300A9A7AA /* Lowe_s_Question.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7F2E600B25EA0E4300A9A7AA /* Lowe_s_Question.xcdatamodel */,
+			);
+			currentVersion = 7F2E600B25EA0E4300A9A7AA /* Lowe_s_Question.xcdatamodel */;
+			path = Lowe_s_Question.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 7F2E5FF625EA0E4300A9A7AA /* Project object */;
+}
